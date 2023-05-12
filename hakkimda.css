@@ -1,0 +1,10 @@
+.nav-item:hover
+{
+    background-color: #F1F6F9;
+}
+.nav-link:hover{
+    color:#212A3E
+}
+.kapsayici{
+    background-color: #212A3E;color:#F1F6F9
+}

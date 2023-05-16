@@ -8,3 +8,17 @@
 .kapsayici{
     background-color: #212A3E;
 }
+body{
+    background-color: #394867;
+    
+}
+h3{
+    font-size: 300%;
+    color:#F1F6F9;
+}
+p{
+    font-size: 150%;
+    color:#9BA4B5;
+    border:3px solid #9BA4B5;
+    padding: 15px;
+}

@@ -2,6 +2,7 @@
 {
     background-color: #F1F6F9;
 }
+
 .nav-link:hover{
     color:#212A3E
 }
@@ -16,9 +17,36 @@ h3{
     font-size: 300%;
     color:#F1F6F9;
 }
-p{
+.baslik{
+    
+    margin-left:300px;
+}
+.metin{
     font-size: 150%;
     color:#9BA4B5;
     border:3px solid #9BA4B5;
     padding: 15px;
+    
 }
+img{
+    width:300px;
+    height:300px;
+}
+
+.bosluk
+{
+    height:250px;
+}
+.bosluk2
+{
+    height: 75px;
+}
+
+.footer {
+	bottom: 0;
+	width: 100%;
+	padding: 10px 0;
+	color: #9BA4B5;
+}
+
+

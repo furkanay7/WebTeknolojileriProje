@@ -1,3 +1,60 @@
 .kapsayici{
     background-color: #212A3E;
 }
+body{
+    background-color: #394867;
+    
+}
+footer {
+    text-align: center;
+	bottom: 0;
+	width: 100%;
+	padding: 10px 0;
+	color: #9BA4B5;
+}
+.bosluk2
+{
+    height: 75px;
+}
+
+table{
+    border:3px solid #9BA4B5;
+    float: left;
+    text-align: center;
+}
+#a{
+    font-size: 50px;
+    color:#F1F6F9
+}
+#b
+{
+    font-size: 35px;
+    color:#212A3E
+}
+h1{
+    font-size: 65px;
+}
+th{
+    font-size: 31.5px;
+}
+tr{
+    font-size:20px;
+}
+#c{
+    background-color: #F1F6F9;
+}
+#d{
+    background-color: #212A3E;
+}
+#e{
+    color:#F1F6F9;
+}
+#f{
+    color:#9BA4B5;
+}
+th{
+    color:#212A3E
+}
+td{
+    color:#394867
+}

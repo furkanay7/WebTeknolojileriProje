@@ -1,3 +1,55 @@
 .kapsayici{
     background-color: #212A3E;
 }
+.carousel {
+    height: 40vh;
+    object-fit: cover;
+  }
+  
+  .carousel-inner img {
+    height: 40vh;
+    width: 100vw;
+    object-fit: cover;
+  }
+  body{
+    background-color: #F1F6F9;
+    
+}
+h3{
+    font-size: 300%;
+    color:#394867;
+}
+.baslik{
+    
+    margin-left:300px;
+}
+.metin{
+    font-size: 150%;
+    color:#394867;
+    border:3px solid #394867;
+    padding: 15px;
+    background-color: #F1F6F9;
+    
+}
+img{
+    width:600px;
+    height:400px;
+}
+
+.bosluk
+{
+    height:250px;
+}
+.bosluk2
+{
+    height: 75px;
+}
+
+.footer {
+	bottom: 0;
+	width: 100%;
+	padding: 10px 0;
+	color: #9BA4B5;
+}
+  
+  

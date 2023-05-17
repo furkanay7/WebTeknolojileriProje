@@ -5,15 +5,181 @@
         <meta charset="UTF-8">
         <title>Şehrim</title>
         <link rel="stylesheet" href="bootstrap.css">
+        <script type="text/javascript" src="bootstrap.js"></script>
         <link rel="stylesheet" href="sehrim.css">
     </head>
     <body>
         <nav class="navbar navbar-expand-sm kapsayici navbar-dark">
             <div class="container-fluid">
               <ul class="navbar-nav mx-auto">
-                <a class="navbar-brand">Şehrim</a>
+                <a class="navbar-brand h1">Şehrim</a>
               </ul>
             </div>
         </nav>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                  aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                  aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="#denizli" onclick="change('denizli.jpg')" ;><img src="denizli.jpg" class="d-block w-100"
+                        alt="denizli"></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Denizli</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="#horoz" onclick="change('horoz.jpg')" ;><img src="horoz.jpg" class="d-block w-100"
+                        alt="Denizli Horoz Heykeli"></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Denizli Horoz Heykeli</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="#pamukkale" onclick="change('pamukkale.jpg')" ;><img src="pamukkale.jpg"
+                        class="d-block w-100" alt="Pamukkale Travertenleri"></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Pamukkale Travertenleri</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="#antik" onclick="change('antiktiyatro.jpg')" ;><img src="antiktiyatro.jpg" class="d-block w-100"
+                        alt="Hierapolis Antik Kenti"></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Hierapolis Antik Kenti</h1>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <a href="#seyir" onclick="change('seyirtepesi.jpg')" ;><img src="seyirtepesi.jpg"
+                        class="d-block w-100" alt="Seyir Tepesi"></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Seyir Tepesi</h1>
+                </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+
+      <div class="container">
+        <div class="bosluk2">&nbsp;</div>
+        <div class="row">
+          <h3 id="denizli">Denizli</h3>
+        </div>
+    
+        
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-7 col-sm-12 col-xl-7 metin">
+                <p>
+                  Denizli, Türkiye'nin Ege Bölgesi'nde yer alan bir şehirdir. 2023 yılı itibarıyla yaklaşık 1 milyon 61 bin nüfusa sahiptir. Şehir, tarihi ve doğal güzellikleriyle ünlüdür.
+                  Denizli'nin tarihi, antik çağlara kadar uzanır. Lidyalılar, Persler, Romalılar ve Bizanslılar gibi birçok medeniyet burada hüküm sürmüştür. Şehir, tarihi geçmişinden dolayı 
+                  birçok antik kalıntıya ev sahipliği yapar. Denizli aynı zamanda tekstil ve ihracat sektöründe önemli bir merkezdir. Şehir, Türkiye'nin en büyük tekstil fabrikalarından bazılarına 
+                  ev sahipliği yapar ve tekstil üretimiyle tanınır. Ayrıca tarım ve hayvancılık da önemli ekonomik faaliyetler arasındadır. 
+                </p>
+            </div>
+                
+            <div class="col-12 col-md-12 col-lg-5 col-sm-12 col-xl-5 ">
+                <img src="denizli.jpg" alt="denizli">
+            </div>
+        </div>  
+        <div class="bosluk2">&nbsp;</div>
+        <div class="row">
+          <h3 id="horoz">Denizli Horoz Heykeli</h3>
+        </div>
+        
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-7 col-sm-12 col-xl-7 metin">
+                <p>
+                  Horoz heykeli, Denizli’nin sembolüdür ve camdan yapılmıştır. Türkiye’nin en büyük cam horoz heykeli olan bu eser, 2013 yılında Denizli Belediyesi önündeki Çınar Meydanı’nda açılmıştır.
+                   Heykelin altındaki beyaz sütunlar Pamukkale travertenlerine atıfta bulunmaktadır1. Heykelin yüksekliği 7 metre, ağırlığı ise 4 ton civarındadır. Heykelin yapımında yaklaşık 10 bin cam
+                    parça kullanılmıştır.
+                </p>
+            </div>
+        
+            <div class="col-12 col-md-12 col-lg-5 col-sm-12 col-xl-5 ">
+                <img src="horoz.jpg" alt="Horoz Heykeli">
+            </div>
+        </div>
+        <div class="bosluk2">&nbsp;</div>
+        <div class="row">
+          <h3 id="pamukkale">Pamukkale Travertenleri</h3>
+        </div>
+       
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-7 col-sm-12 col-xl-7 metin">
+                <p>
+                  Pamukkale travertenleri, termal suyun havayla birleşmesi sonucu oluşan kimyasal tepkime nedeniyle çöken kayalardır. Termal su, havayla karşılaştığında kalsiyum karbonat birikir ve pamuk gibi görünür.
+                   Yerli ve yabancı turistlerin sıkça ziyaret ettiği travertenler, izleyenleri hayran bırakır. Pamukkale travertenleri, antik Yunan kenti Hierapolis’in üzerinde bulunur ve UNESCO Dünya Mirası Listesi’nde 
+                   yer alır. Travertenlerin sıcaklığı 35 °C ile 100 °C arasında değişir ve sağlık açısından faydalıdır.
+                </p>
+            </div>
+    
+            <div class="col-12 col-md-12 col-lg-5 col-sm-12 col-xl-5 ">
+                <img src="pamukkale.jpg" alt="Pamukkale Travertenleri">
+            </div>
+        </div>
+        <div class="bosluk2">&nbsp;</div>
+        <div class="row">
+          <h3 id="antik">Hierapolis Antik Kenti</h3>
+        </div>
+       
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-7 col-sm-12 col-xl-7 metin">
+                <p>
+                  Hierapolis, Pamukkale travertenlerinin üzerinde bulunan bir Frig kentidir. MÖ 2. yüzyılda Pergamon kralları tarafından kurulmuştur. Adı Yunanca “Kutsal Şehir” anlamına gelir. Roma İmparatorluğu döneminde önemli 
+                  bir termal spa ve Hristiyanlık merkezi olmuştur. Aziz Philip’in burada şehit edildiğine inanılır. Hierapolis’in kalıntıları arasında hamamlar, tapınaklar, bir zafer takı, bir nymphaeum, bir nekropol ve bir tiyatro 
+                  bulunmaktadır. Hierapolis, 1988 yılında UNESCO Dünya Mirası Listesi’ne alınmıştır.
+                </p>
+            </div>
+    
+            <div class="col-12 col-md-12 col-lg-5 col-sm-12 col-xl-5 ">
+                <img src="antiktiyatro.jpg" alt="Siyah resim">
+            </div>
+        </div>
+        <div class="bosluk2">&nbsp;</div>
+        <div class="row">
+          <h3 id="seyir">Seyir Tepesi</h3>
+        </div>
+       
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-7 col-sm-12 col-xl-7 metin">
+                <p>
+                  Seyir Tepesi Şehir Ormanı, Çamlık Parkı ve Pamukkale Üniversitesi kampüsünün üst tarafında, şehir merkezinde yer alıyor.405 bin metrekarelik alanda kurulan Seyir Tepesi'nde 27 metrelik dev horoz heykeli en çok rağbet 
+                  gören noktalardan biridir. Seyir Tepesi Denizli manzarasını farklı bir şekilde izleme imkanı sunan seyir salıncağının yanı sıra, 725 metre mesafeli ve 5 duraklı "Zipline Kuleleri", 680 metre uzunluğundaki 40 araç kapasiteli 
+                  "Dağ Kızağı", 36 oyunlu, 3 katlı ve 10 metre yüksekliğe sahip "Macera Parkuru" ile macera severlerin ilgisini çekiyor.
+                </p>
+            </div>
+    
+            <div class="col-12 col-md-12 col-lg-5 col-sm-12 col-xl-5 ">
+                <img src="seyirtepesi.jpg" alt="Siyah resim">
+            </div>
+        </div>
+    
+        <div class="bosluk2">&nbsp;</div>
+    
+        <div class="footer">
+          <div class="container" style="text-align: center;">Furkan Ay &copy; 2023</div>
+        </div>
+    </div>
+    
     </body>
 </html>

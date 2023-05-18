@@ -1,3 +1,47 @@
 .kapsayici{
     background-color: #212A3E;
 }
+body{
+    background-color: #394867;   
+}
+.footer {
+	bottom: 0;
+	width: 100%;
+	padding: 10px 0;
+	color: #9BA4B5;
+}
+.bosluk2
+{
+    height: 600px;
+}
+.bosluk
+{
+    height: 100px;
+}
+table{
+    
+    text-align:left;
+}
+label{
+    font-size: 30px;
+}
+th{
+    text-align: right;
+    color:#F1F6F9
+}
+#a{
+    text-align: center;
+}
+#b{
+    text-align: center;
+}
+.bosluk3{
+    height:525px;
+}
+#c{
+    font-size: 40px;
+    color:#F1F6F9;
+}
+.bosluk4{
+    height:100px;
+}

@@ -5,15 +5,43 @@
         <meta charset="UTF-8">
         <title>Login</title>
         <link rel="stylesheet" href="bootstrap.css">
+        <script type="text/javascript" src="bootstrap.js"></script>
         <link rel="stylesheet" href="login.css">
+        <script src="login.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-expand-sm kapsayici navbar-dark">
             <div class="container-fluid">
               <ul class="navbar-nav mx-auto">
-                <a class="navbar-brand">Login</a>
+                <a class="navbar-brand h1">Login</a>
               </ul>
             </div>
         </nav>
+
+        <div class="bosluk">&nbsp;</div>
+
+        <div class="container">
+          <form action="login.php" method="POST" onsubmit="return validateForm()">
+            <table class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12">
+              <tr>
+                <th><label for="username">Kullanıcı Adı:</label></th>
+                <td><input type="text" id="username" name="username" placeholder="Kulanıcı Adınızı Giriniz." required></td>
+              </tr>
+              <tr>
+                <th><label for="password">Şifre:</label></th>
+                <td><input type="password" id="password" name="password" placeholder="Şifrenizi Giriniz." required></td>
+              </tr>
+              <tr>
+                <td id="a" colspan="2"><input type="submit" value="Giriş Yap"></td>
+              </tr>
+            </table>
+          </form>
+        </div>
+
+        <div class="bosluk2">&nbsp;</div>
+
+        <div class="footer">
+          <div class="container" style="text-align: center;">Furkan Ay &copy; 2023</div>
+        </div>
     </body>
 </html>

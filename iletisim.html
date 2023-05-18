@@ -5,15 +5,72 @@
         <meta charset="UTF-8">
         <title>İletişim</title>
         <link rel="stylesheet" href="bootstrap.css">
+        <script type="text/javascript" src="bootstrap.js"></script>
         <link rel="stylesheet" href="iletisim.css">
+        <script src="iletisim.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-expand-sm kapsayici navbar-dark">
             <div class="container-fluid">
               <ul class="navbar-nav mx-auto">
-                <a class="navbar-brand">İletişim</a>
+                <a class="navbar-brand h1">İletişim</a>
               </ul>
             </div>
         </nav>
-    </body>
+
+        <div class="bosluk">&nbsp;</div>
+
+        <div class="container">
+          <form id="contactForm" onsubmit="return validateForm()" action="iletisim.php" method="POST">
+            <table class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12">
+              <tr>
+                <th><label for="name">Adınız:</label></th>
+                <td><input type="text" id="name" name="name" required></td>
+              </tr>
+              <tr>
+                <th><label for="email">E-posta:</label></th>
+                <td><input type="email" id="email" name="email" required></td>
+              </tr>
+              <tr>
+                <th><label for="gender">Cinsiyetiniz:</label></th>
+                <td>
+                  <input type="radio" id="genderMale" name="gender" value="Erkek">
+                    <label id="a" for="genderMale">Erkek</label>
+                    <input type="radio" id="genderFemale" name="gender" value="Kadın">
+                    <label id="a" for="genderFemale">Kadın</label>
+                </td>
+              </tr>
+              <tr>
+                <th><label for="message">Mesajınız:</label></th>
+                <td><textarea id="message" name="message" required></textarea></td>
+              </tr>
+              <tr>
+                <th><label for="country">Ülkeniz:</label></th>
+                <td>
+                  <select id="country" name="country" required>
+                    <option value="">Seçiniz</option>
+                        <option value="Türkiye">Türkiye</option>
+                        <option value="Amerika Birleşik Devletleri">Amerika Birleşik Devletleri</option>
+                        <option value="Birleşik Krallık">Birleşik Krallık</option>
+                        <option value="Almanya">Almanya</option>
+                        <option value="Fransa">Fransa</option>
+                        <option value="İtalya">İtalya</option>
+                        <option value="İspanya">İspanya</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <th><input type="submit" value="Gönder"></th>
+                <td><input type="reset" value="Temizle"></td>
+              </tr>
+            </table>
+          </form>
+        </div>
+
+        <div class="bosluk2">&nbsp;</div>
+
+        <div class="footer">
+          <div class="container" style="text-align: center;">Furkan Ay &copy; 2023</div>
+        </div>
+      </body>
 </html>

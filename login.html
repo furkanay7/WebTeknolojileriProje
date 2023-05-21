@@ -10,13 +10,32 @@
         <script src="login.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-expand-sm kapsayici navbar-dark">
-            <div class="container-fluid">
-              <ul class="navbar-nav mx-auto">
-                <a class="navbar-brand h1">Login</a>
-              </ul>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-sm kapsayici navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand h1">Login</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Hakkımda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ozgecmis.html">Özgeçmiş</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sehrim.html">Şehrim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="takimimiz.html">Takımımız</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="iletisim.html">İletişim</a>
+              </li>
+            </ul>
+        </div>
+      </nav>
 
         <div class="bosluk">&nbsp;</div>
 
@@ -25,7 +44,7 @@
             <table class="col-12 col-md-12 col-lg-12 col-sm-12 col-xl-12">
               <tr>
                 <th><label for="username">Kullanıcı Adı:</label></th>
-                <td><input type="text" id="username" name="username" placeholder="Kulanıcı Adınızı Giriniz." required></td>
+                <td><input type="text" id="username" name="username" placeholder="Kullanıcı Adınızı Giriniz." required></td>
               </tr>
               <tr>
                 <th><label for="password">Şifre:</label></th>

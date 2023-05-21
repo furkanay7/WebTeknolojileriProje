@@ -10,13 +10,32 @@
         <script src="iletisim.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-expand-sm kapsayici navbar-dark">
-            <div class="container-fluid">
-              <ul class="navbar-nav mx-auto">
-                <a class="navbar-brand h1">İletişim</a>
-              </ul>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-sm kapsayici navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand h1">Furkan Ay</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Hakkımda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ozgecmis.html">Özgeçmiş</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sehrim.html">Şehrim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="takimimiz.html">Takımımız</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+            </ul>
+        </div>
+      </nav>
 
         <div class="bosluk">&nbsp;</div>
 
@@ -26,6 +45,10 @@
               <tr>
                 <th><label for="name">Adınız:</label></th>
                 <td><input type="text" id="name" name="name" required></td>
+              </tr>
+              <tr>
+                <th><label for="surname">Soyadınız:</label></th>
+                <td><input type="text" id="surname" name="surname" required></td>
               </tr>
               <tr>
                 <th><label for="email">E-posta:</label></th>

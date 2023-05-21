@@ -49,7 +49,7 @@
 
             <br>
 
-            <a href="hakkimda.html">Ana Sayfaya Gitmek İçin Tıklayınız></a>
+            <a href="index.html">Ana Sayfaya Gitmek İçin Tıklayınız></a>
         </div>
   
         <div class="bosluk3">&nbsp;</div>

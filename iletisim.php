@@ -25,12 +25,14 @@
             if ($_SERVER["REQUEST_METHOD"] == "POST") 
             {
                 $name = $_POST["name"];
+                $surname = $_POST["surname"];
                 $email = $_POST["email"];
                 $gender = $_POST["gender"];
                 $message = $_POST["message"];
                 $country = $_POST["country"];
       
                 echo "<p>Adınız: $name</p>";
+                echo "<p>Soyadınız: $surname</p>";
                 echo "<p>E-posta Adresiniz: $email</p>";
                 echo "<p>Cinsiyetiniz: $gender</p>";
                 echo "<p>Mesajınız: $message</p>";
@@ -39,7 +41,7 @@
         ?>
 
         <br>
-            <a href="hakkimda.html">Ana Sayfaya Dönmek İçin Tıklayınız></a>
+            <a href="index.html">Ana Sayfaya Dönmek İçin Tıklayınız</a>
         </div>
   
         <div class="bosluk3">&nbsp;</div>
